@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="uz">
 <head>
 <meta charset="utf-8">
@@ -55,7 +55,7 @@ footer{text-align:center;color:var(--m);padding:24px 14px;font-size:13px;font-fa
 <p class="sub">Narxlari pista 250 ming So'm Gajak 240 ming So'm</p>
 <section class="grid" id="grid"></section>
 </main>
-<footer>Bozorcha — quruq mevalar va yong'oqlar.</footer>
+<footer>Bozorcha — quruq mevalar va yong'oqlar</footer>
 <div class="scrim" id="scrim"></div>
 <aside id="cart">
 <div class="ah"><h3>Savat</h3><button class="x" id="close">✕</button></div>
@@ -71,13 +71,13 @@ footer{text-align:center;color:var(--m);padding:24px 14px;font-size:13px;font-fa
 
 <script>
 var TG="Yusuf_R11";
-  const P = [
-  { id: 1, n: "Pista", e: "🥜", f: "1164.jpg" },
-  { id: 2, n: "Bodom", e: "🌰", f: "1165.jpg" },
-  { id: 3, n: "Kaju", e: "🥜", f: "1166.jpg" },
-  { id: 4, n: "Pekan yong'og'i", e: "🌰", f: "1167.jpg" }
+var P=[
+{id:1,n:"Pista",e:"🥜",f:"1164.jpg"},
+{id:2,n:"Bodom",e:"🌰",f:"1165.jpg"},
+{id:3,n:"Kaju",e:"🥜",f:"1166.jpg"},
+{id:4,n:"Pekan yong'og'i",e:"🌰",f:"1167.jpg"}
 ];
-   var qty={},cart={};
+var qty={},cart={};
 function $(i){return document.getElementById(i)}
 function kg(v){return (Math.round(v*10)/10).toString().replace(".",",")+" kg"}
 function pname(id){return P.filter(function(p){return p.id==id})[0].n}
